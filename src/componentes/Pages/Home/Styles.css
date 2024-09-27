@@ -1,0 +1,96 @@
+
+.container-hotel {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 97vw;
+    border: 0px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container-home {
+    font-family: "Roboto", system-ui;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.excluir {
+    cursor: pointer;
+}
+
+.barra-busca {
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+    background-color:  #333;
+    color: white;
+}
+
+.container-barra-busca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.botao-modo-escuro {
+    cursor: pointer;
+}
+
+.modo-escuro .container-hotel {
+    background-color: #333;
+    color: white;
+}
+
+.modo-escuro .barra-busca {
+    background-color: #333;
+    color: white;
+}
+
+.modo-escuro .container-home {
+    background-color: #333;
+    color: white;
+}
+
+.modo-escuro .container-barra-busca {
+    background-color: #535353;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.modo-escuro .container-menu {
+    background-color: #535353;
+}
+
+.container-hotel-favorito {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-favoritos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

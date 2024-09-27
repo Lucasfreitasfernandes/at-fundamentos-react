@@ -1,0 +1,77 @@
+
+.container-card {
+    width: 240px;
+    height: 450px;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+}
+.container-card {
+    color: #1e1e1b;
+    cursor: pointer;
+}
+
+.container-card:hover {
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.imagem-card {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.h5-card {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin: 10px 0 0 0;
+    padding: 0.5rem;
+}
+
+.estrelas-card {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.votos {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0.5rem;
+}
+
+.paragrafo-card {
+    margin-top: 5px;
+    margin-right: 43px;
+    font: 5px;
+}
+
+.cotainer-informacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo-info {
+    margin-left: 0.5rem;
+    padding: 0 0.5rem;
+    font-size: 0.9rem;
+
+}
+.container-estrelas {
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #1e1e1b;
+}
+
+
+.editar {
+    cursor: pointer;
+}

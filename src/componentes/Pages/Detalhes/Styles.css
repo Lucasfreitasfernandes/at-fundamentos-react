@@ -1,0 +1,83 @@
+.container-sobre-hotel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: center;
+}
+
+.container-detalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+
+.container-texto-detalhes {
+    max-width: 1240px;
+    width: 100%;
+    color: #1e1e1b;
+    margin: 0 auto;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-start;
+    background-color: white;
+    box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 0.8rem;
+}
+
+.imagem-detalhes {
+    box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.2);
+    width: 15rem;
+    height: 23rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    gap: 1rem;
+    object-fit: cover;
+    max-width: 50%;
+}
+
+.container-imagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.h2-detalhes {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.bolder-detalhes {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    color: #333;
+}
+
+.nome-hotel-detalhes {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.descricao-hotel {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 1rem;
+}
+
